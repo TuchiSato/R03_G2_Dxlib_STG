@@ -238,7 +238,7 @@ int WINAPI WinMain(
 BOOL GameLoad(VOID)
 {
 	//‰æ‘œ‚ğ•ªŠ„‚µ‚Ä“Ç‚İ‚İ
-	if (LoadImageDivMen(&Tama[0], ".\\Image\\Tma.png", 4, 1) == FALSE) { return FALSE; }
+	if (LoadImageDivMen(&Tama[0], ".\\Image\\Tama.png", 4, 1) == FALSE) { return FALSE; }
 
 	return TRUE;	//‘S‚Ä“Ç‚İ‚İ‚½I
 }
